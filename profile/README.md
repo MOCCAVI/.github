@@ -1,4 +1,3 @@
-# .github
 # ☕ MOCCAVI
 
 **MO**del **C**onsistency with **C**ontext **A**ugmentation for **VI**ew-based systems
