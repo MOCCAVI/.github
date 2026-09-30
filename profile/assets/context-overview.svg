@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1000" viewBox="0 0 1200 1000" role="img" aria-labelledby="title desc">
+<title id="title">MOCCAVI: context representation and consistency coordination in Vitruvius</title>
+<desc id="desc">Conceptual research design. Vitruvius supplies the integration substrate. Inside its virtual single underlying model, artifact models and an explicit context model supply consumer-specific inputs to preservation rules, xDECAF analyses and LLM judgments. MOCCAVI investigates the context representation and coordination of source-specific findings, coverage, conflicts and provenance. This is not a diagram of completed integrations.</desc>
+<defs>
+ <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#87705a"/></marker>
+</defs>
+<rect width="1200" height="1000" rx="20" fill="#F7F3ED"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <text x="40" y="43" fill="#756354" font-size="14" font-weight="700" letter-spacing="2">CONCEPTUAL ARCHITECTURE</text>
+ <text x="40" y="86" fill="#302218" font-size="34" font-weight="700">Context representation and coordination in Vitruvius</text>
+ <text x="40" y="119" fill="#655548" font-size="19">Proposed integration of context models and consistency mechanisms</text>
+ <!-- Existing integration substrate: a boundary, not a new MOCCAVI component. -->
+ <rect x="32" y="152" width="1136" height="790" rx="20" fill="#FFFFFF" stroke="#C5CED4" stroke-width="2"/>
+ <rect x="32" y="152" width="1136" height="69" rx="20" fill="#E8EDF0"/>
+ <path d="M32 191 H1168 V221 H32Z" fill="#E8EDF0"/>
+ <text x="56" y="195" fill="#344955" font-size="23" font-weight="700">Vitruvius-based workflow</text>
+ <text x="1138" y="193" text-anchor="end" fill="#526673" font-size="17">Existing integration substrate</text>
+ <!-- Models share one V-SUM; context is a participant, not a parallel system. -->
+ <rect x="56" y="242" width="1088" height="210" rx="12" fill="#F4F6F7" stroke="#C5CED4"/>
+ <text x="80" y="275" fill="#344955" font-size="20" font-weight="700">V-SUM</text>
+ <text x="174" y="275" fill="#526673" font-size="17">Virtual single underlying model · integrated models and correspondences</text>
+ <g fill="#FFFFFF" stroke="#B9C5CD"><rect x="80" y="305" width="183" height="72" rx="8"/><rect x="279" y="305" width="183" height="72" rx="8"/><rect x="478" y="305" width="182" height="72" rx="8"/></g>
+ <g fill="#344955" font-size="19" text-anchor="middle"><text x="171.5" y="348">Requirements</text><text x="370.5" y="348">Architecture</text><text x="569" y="348">Code models</text></g>
+ <text x="80" y="414" fill="#526673" font-size="17">Facts represented by existing artifact models</text>
+ <rect x="709" y="300" width="410" height="128" rx="10" fill="#E8EDDF" stroke="#899C77" stroke-width="2"/>
+ <text x="733" y="329" fill="#516243" font-size="13" font-weight="700" letter-spacing="1.5">MOCCAVI · CONTEXT REPRESENTATION</text>
+ <text x="733" y="361" fill="#33412D" font-size="23" font-weight="700">Explicit context model</text>
+ <text x="733" y="389" fill="#46583D" font-size="17">Deployment · purpose · data handling</text>
+ <text x="733" y="414" fill="#46583D" font-size="16">Facts not represented in artifact models</text>
+ <!-- Derive mechanism-specific views from the integrated model basis. -->
+ <g fill="none" stroke="#87705a" stroke-width="2" marker-end="url(#arrow)"><path d="M365 452 V481"/><path d="M910 452 V481"/></g>
+ <rect x="164" y="493" width="872" height="63" rx="10" fill="#E8EDDF" stroke="#899C77" stroke-width="2"/>
+ <text x="188" y="520" fill="#33412D" font-size="20" font-weight="700">Consumer-specific views</text>
+ <text x="188" y="544" fill="#46583D" font-size="16">Mechanism-specific inputs with provenance and applicability conditions</text>
+ <g fill="none" stroke="#87705a" stroke-width="2" marker-end="url(#arrow)"><path d="M255 556 V596"/><path d="M600 556 V596"/><path d="M945 556 V596"/></g>
+ <g fill="#FAFBFC" stroke="#B9C5CD"><rect x="80" y="608" width="327" height="106" rx="10"/><rect x="437" y="608" width="326" height="106" rx="10"/><rect x="793" y="608" width="326" height="106" rx="10"/></g>
+ <g fill="#344955" font-size="21" font-weight="700"><text x="100" y="641">Rules / Reactions</text><text x="457" y="641">xDECAF analysis</text><text x="813" y="641">LLM judgments</text></g>
+ <g fill="#526673" font-size="16"><text x="100" y="670">Context-dependent conditions</text><text x="100" y="695">Consistency preservation</text><text x="457" y="670">Labels, bindings, constraints</text><text x="457" y="695">Data-flow analysis</text><text x="813" y="670">Statements and structured context</text><text x="813" y="695">Source-specific assessments</text></g>
+ <g fill="none" stroke="#87705a" stroke-width="2" marker-end="url(#arrow)"><path d="M255 714 V758"/><path d="M600 714 V758"/><path d="M945 714 V758"/></g>
+ <rect x="80" y="770" width="1039" height="133" rx="12" fill="#302218"/>
+ <text x="104" y="800" fill="#D9A441" font-size="13" font-weight="700" letter-spacing="1.5">MOCCAVI · COORDINATION &amp; EXPLANATION</text>
+ <text x="104" y="837" fill="#F2E8DC" font-size="26" font-weight="700">Source-specific consistency results</text>
+ <text x="104" y="870" fill="#E1C6A8" font-size="18">Source-specific results · coverage · conflicts · provenance · explained repair proposals</text>
+ <rect x="40" y="965" width="16" height="16" rx="3" fill="#E8EDF0" stroke="#B9C5CD"/>
+ <text x="66" y="979" fill="#526673" font-size="15">Existing substrate / mechanisms</text>
+ <rect x="364" y="965" width="16" height="16" rx="3" fill="#E8EDDF" stroke="#899C77"/>
+ <text x="390" y="979" fill="#46583D" font-size="15">MOCCAVI research focus</text>
+ <text x="1160" y="979" text-anchor="end" fill="#756354" font-size="15">Evaluation: quality · effort · human maintainability</text>
+</g>
+</svg>

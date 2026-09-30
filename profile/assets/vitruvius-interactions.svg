@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="1160" viewBox="0 0 1300 1160" role="img" aria-labelledby="title desc">
+<title id="title">MOCCAVI interacts with the Vitruvius framework</title>
+<desc id="desc">Proposed interactions between existing Vitruvius parts and MOCCAVI research. Editors and server APIs expose views for humans and coding agents. The V-SUM contains artifact models and explicit context. Change propagation connects to context-dependent coordination, analyses and judgments. Reactions specifications can be proposed through AI-assisted authoring. Evaluation covers quality, effort, transfer and human maintainability.</desc>
+<defs>
+ <marker id="blue-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#708595"/></marker>
+ <marker id="green-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#72815E"/></marker>
+</defs>
+<rect width="1300" height="1160" rx="20" fill="#F7F3ED"/>
+<g font-family="Arial,Helvetica,sans-serif">
+ <text x="40" y="44" fill="#756354" font-size="14" font-weight="700" letter-spacing="2">FRAMEWORK INTEGRATION</text>
+ <text x="40" y="89" fill="#302218" font-size="34" font-weight="700">MOCCAVI interfaces with Vitruvius components</text>
+ <text x="40" y="125" fill="#655548" font-size="19">Model access, explicit context, coordinated checks and AI assistance.</text>
+ <rect x="32" y="158" width="530" height="839" rx="18" fill="#E8EDF0"/>
+ <rect x="758" y="158" width="510" height="839" rx="18" fill="#E8EDDF"/>
+ <text x="56" y="199" fill="#344955" font-size="23" font-weight="700">Vitruvius</text>
+ <text x="56" y="228" fill="#526673" font-size="16">Existing framework responsibilities</text>
+ <text x="782" y="199" fill="#33412D" font-size="23" font-weight="700">MOCCAVI</text>
+ <text x="782" y="228" fill="#46583D" font-size="16">Proposed research interactions</text>
+ <!-- Left: actual framework parts. -->
+ <g fill="#FFFFFF" stroke="#B8C5CD">
+  <rect x="56" y="257" width="482" height="105" rx="10"/>
+  <rect x="56" y="428" width="482" height="130" rx="10"/>
+  <rect x="56" y="625" width="482" height="111" rx="10"/>
+  <rect x="56" y="861" width="482" height="105" rx="10"/>
+ </g>
+ <g fill="#344955" font-size="23" font-weight="700">
+  <text x="78" y="291">Views, editors &amp; server access</text>
+  <text x="78" y="462">Vitruv core · V-SUM</text>
+  <text x="78" y="660">Vitruv-Change</text>
+  <text x="78" y="895">Vitruv-DSLs · Reactions</text>
+ </g>
+ <g fill="#526673" font-size="17">
+  <text x="78" y="319">View-based model access</text><text x="78" y="344">Remote access through Vitruv-Server</text>
+  <text x="78" y="492">Models, correspondences and view types</text><text x="78" y="520">Derive views; integrate edits</text><text x="78" y="544">MOCCAVI adds context alongside artifact models</text>
+  <text x="78" y="690">Represent and propagate model changes</text><text x="78" y="716">Execute consistency-preservation specifications</text>
+  <text x="78" y="923">Languages for consistency-preservation rules</text><text x="78" y="948">Reactions supply change-propagation behavior</text>
+ </g>
+ <!-- Established workflow relationships on the left. -->
+ <g fill="none" stroke="#708595" stroke-width="2" marker-end="url(#blue-arrow)">
+  <path d="M180 374 V416" marker-start="url(#blue-arrow)"/>
+  <path d="M180 570 V613" marker-start="url(#blue-arrow)"/>
+  <path d="M180 849 V749"/>
+ </g>
+ <g fill="#526673" font-size="15"><text x="197" y="401">derive views / apply edits</text><text x="197" y="597">changes / propagated updates</text><text x="197" y="798">rule specifications</text></g>
+ <!-- Right: MOCCAVI roles, distinct from upstream components. -->
+ <g fill="#F9FBF5" stroke="#9FAF8B">
+  <rect x="782" y="257" width="462" height="105" rx="10"/>
+  <rect x="782" y="428" width="462" height="130" rx="10"/>
+  <rect x="782" y="625" width="462" height="111" rx="10"/>
+  <rect x="818" y="781" width="390" height="47" rx="9"/>
+  <rect x="782" y="861" width="462" height="105" rx="10"/>
+ </g>
+ <g fill="#33412D" font-size="23" font-weight="700">
+  <text x="804" y="291">Humans &amp; AI coding agents</text>
+  <text x="804" y="462">Context &amp; derived inputs</text>
+  <text x="804" y="660">Coordination &amp; explanation</text>
+  <text x="804" y="895">AI-assisted authoring</text>
+ </g>
+ <g fill="#46583D" font-size="17">
+  <text x="804" y="319">Read and edit supported model views</text><text x="804" y="344">Generate and evolve code; review changes</text>
+  <text x="804" y="492">Elicit, reuse and evolve context facts</text><text x="804" y="520">Derive mechanism-specific inputs</text><text x="804" y="544">Retain fact ownership and provenance</text>
+  <text x="804" y="690">Context-dependent triggers and assessments</text><text x="804" y="716">Coverage, conflicts and explained proposals</text>
+  <text x="838" y="811">xDECAF analyses · LLM judgments</text>
+  <text x="804" y="923">Propose context and preservation rules</text><text x="804" y="948">Check candidates with execution feedback</text>
+ </g>
+ <path d="M1013 738 V779" fill="none" stroke="#72815E" stroke-width="2" marker-start="url(#green-arrow)" marker-end="url(#green-arrow)"/>
+ <!-- The inter-column links are proposed responsibility mappings, not API claims. -->
+ <g fill="none" stroke="#72815E" stroke-width="2" stroke-dasharray="6 5" marker-start="url(#green-arrow)" marker-end="url(#green-arrow)">
+  <path d="M550 324 H770"/><path d="M550 506 H770"/><path d="M550 704 H770"/><path d="M550 939 H770"/>
+ </g>
+ <g text-anchor="middle" fill="#526243" font-size="16">
+  <text x="660" y="290">read / edit</text><text x="660" y="313">through views</text>
+  <text x="660" y="472">facts / derived</text><text x="660" y="495">context views</text>
+  <text x="660" y="670">changes /</text><text x="660" y="693">check feedback</text>
+  <text x="660" y="905">candidate rules /</text><text x="660" y="928">execution feedback</text>
+ </g>
+ <rect x="32" y="1020" width="1236" height="102" rx="14" fill="#302218"/>
+ <text x="56" y="1053" fill="#D9A441" font-size="14" font-weight="700" letter-spacing="1.5">EVALUATION CRITERIA</text>
+ <text x="56" y="1087" fill="#F2E8DC" font-size="21">Verdict quality · modelling effort · transfer · functional correctness · human maintainability</text>
+ <text x="40" y="1147" fill="#756354" font-size="15">Conceptual design. Dashed links show proposed MOCCAVI interactions, not completed integrations.</text>
+</g>
+</svg>
