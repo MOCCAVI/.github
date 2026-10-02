@@ -31,7 +31,7 @@ Consider a driver-monitoring system that shares data with a backend. Changing th
 
 ## MOCCAVI in Vitruvius
 
-Vitruvius supplies the integration substrate. In the proposed design, the **context model participates in the V-SUM alongside the artifact models**. MOCCAVI investigates how to derive inputs for different consistency mechanisms from this shared basis and coordinate their findings without losing scope or provenance.
+In the proposed design, the **context model participates in the V-SUM of Vitruvius alongside the artifact models**. MOCCAVI investigates how to derive inputs for different consistency mechanisms from this shared basis and coordinate their findings without losing scope or provenance.
 
 <p align="center">
   <a href="https://raw.githubusercontent.com/MOCCAVI/.github/main/profile/assets/context-overview.svg"><img src="https://raw.githubusercontent.com/MOCCAVI/.github/main/profile/assets/context-overview.svg" alt="MOCCAVI in a Vitruvius-based workflow: artifact models and explicit context share the V-SUM; consumer-specific views feed Rules and Reactions, xDECAF and LLM judgments; MOCCAVI coordinates findings, coverage, conflicts and provenance. Conceptual research design, not completed integrations." width="1000" /></a>
@@ -61,13 +61,13 @@ The design connects MOCCAVI to different parts of the framework: model access th
 
 ## Context metamodel
 
-The proposed metamodel below comes from Felix Schwickerath’s master’s thesis proposal, *Modelling Context in Architecture-Based Protection Analyses*. It explores how explicit context can extend xDECAF data-flow analysis.
+The proposed metamodel below explores how explicit context can extend xDECAF data-flow analysis.
 
 <a href="https://raw.githubusercontent.com/MOCCAVI/.github/main/profile/assets/context-metamodel.png">
   <img src="https://raw.githubusercontent.com/MOCCAVI/.github/main/profile/assets/context-metamodel.png" alt="Proposed context metamodel: Context contains bindings, definitions and types. A ContextBinding links a definition to a ContextValue. DFD-specific definitions refer to vertices, behavior, pins, flows and analysis constraints." width="1000" />
 </a>
 
-*Proposal excerpt, Figure 4.1, p. 9. Proposed structure, not a finalized API. Select the figure to inspect it at full resolution.*
+* Proposed structure, not a finalized API. Select the figure to inspect it at full resolution.*
 
 | Concept | What it expresses |
 | :--- | :--- |
