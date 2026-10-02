@@ -67,7 +67,7 @@ The proposed metamodel below explores how explicit context can extend xDECAF dat
   <img src="https://raw.githubusercontent.com/MOCCAVI/.github/main/profile/assets/context-metamodel.png" alt="Proposed context metamodel: Context contains bindings, definitions and types. A ContextBinding links a definition to a ContextValue. DFD-specific definitions refer to vertices, behavior, pins, flows and analysis constraints." width="1000" />
 </a>
 
-* Proposed structure, not a finalized API. Select the figure to inspect it at full resolution.*
+*Proposed structure, not a finalized API. Select the figure to inspect it at full resolution.*
 
 | Concept | What it expresses |
 | :--- | :--- |
@@ -81,8 +81,6 @@ The proposed extension loads context alongside system models, accounts for it wh
 <a href="https://raw.githubusercontent.com/MOCCAVI/.github/main/profile/assets/analysis-process.png">
   <img src="https://raw.githubusercontent.com/MOCCAVI/.github/main/profile/assets/analysis-process.png" alt="Proposed analysis process: load models and context, extract and annotate data flows, propagate labels, then check constraints." width="1000" />
 </a>
-
-*Proposal excerpt, Figure 4.2, p. 9; adapted in the proposal from its references [3, 12]. Both figures are extracted from the supplied PDF. [Figure provenance and reading scope](https://github.com/MOCCAVI/.github/blob/main/profile/assets/SOURCES.md).*
 
 ## Repositories
 
