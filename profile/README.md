@@ -57,7 +57,7 @@ The design connects MOCCAVI to different parts of the framework: model access th
   <a href="https://raw.githubusercontent.com/MOCCAVI/.github/main/profile/assets/vitruvius-interactions.svg"><img src="https://raw.githubusercontent.com/MOCCAVI/.github/main/profile/assets/vitruvius-interactions.svg" alt="Proposed MOCCAVI interactions with Vitruvius: humans and coding agents access model views through editors or server APIs; context participates in the V-SUM; coordination connects change propagation with xDECAF and LLM judgments; AI-assisted authoring proposes Reactions rules. Evaluation examines verdict quality, transfer, effort, correctness and human maintainability." width="1000" /></a>
 </p>
 
-*Blue identifies existing Vitruvius components; green identifies MOCCAVI’s proposed interactions. Arrows describe conceptual responsibilities, not deployed API connections. Framework component roles follow the [Vitruvius documentation](https://github.com/vitruv-tools#structure); the research design and reading scope are documented in [asset provenance](https://github.com/MOCCAVI/.github/blob/main/profile/assets/SOURCES.md).*
+*Blue identifies existing Vitruvius components; green identifies MOCCAVI’s proposed interactions. Arrows describe conceptual responsibilities, not deployed API connections. Framework component roles follow the [Vitruvius documentation](https://github.com/vitruv-tools#structure).*
 
 ## Context metamodel
 
